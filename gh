@@ -1,0 +1,49 @@
+void xuat()
+{
+	int i, j;
+	for (i = 0; i < n; i++)
+	{
+		cout << endl;
+		for (j = 0; j < n; j++)
+		{
+			cout << " ";
+			cout << a[i][j];
+		}
+	}
+}
+
+void doicot(int k, int t)void xuat()
+{
+	int i, j;
+	for (i = 0; i < n; i++)
+	{
+		cout << endl;
+		for (j = 0; j < n; j++)
+		{
+			cout << " ";
+			cout << a[i][j];
+		}
+	}
+}
+
+void doicot(int k, int t)
+{
+	int i;
+	float p;
+	for (i = 0; i < n; i++)
+	{
+		p = a[i][k];
+		a[i][k] = a[i][t];
+		a[i][t] = p;
+	}
+}
+{
+	int i;
+	float p;
+	for (i = 0; i < n; i++)
+	{
+		p = a[i][k];
+		a[i][k] = a[i][t];
+		a[i][t] = p;
+	}
+}
